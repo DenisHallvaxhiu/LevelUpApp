@@ -1,0 +1,14 @@
+.Home {
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(31,11,24,255) ,rgba(16,13,21,255));
+    display: flex;
+  }
+.sidebar{
+    flex: 0 0 20%;
+}
+.main-content{
+    flex: 1 1 auto;
+    max-width: 60vw;
+}

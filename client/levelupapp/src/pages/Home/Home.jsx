@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css"
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       </div>
       <div className="main-content">
         {" "}
-        <h1>test</h1>
+        <p>testsssssss</p>
       </div>
       <div className="sidebar right">
         {" "}

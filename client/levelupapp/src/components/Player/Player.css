@@ -1,0 +1,36 @@
+.player{
+    position: relative;
+    color: white;
+}
+.player-background-image{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.player-profile{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player-profile > img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.player-info{
+    margin-left: 20px;;
+}
+.player-info *{
+    margin: 0;
+    padding: 0;
+}
+.player-info p{
+    background-color: green;
+    width: 100%;
+    border-radius: 5px;
+    padding: 1px 10px;
+}

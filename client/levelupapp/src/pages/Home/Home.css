@@ -6,9 +6,15 @@
     display: flex;
   }
 .sidebar{
-    flex: 0 0 20%;
+    flex: 0 0 15%;
 }
 .main-content{
     flex: 1 1 auto;
-    max-width: 60vw;
+    max-width: 70vw;
+}
+
+.left{
+    border-right: 2px solid red;
+    display: flex;
+    flex-direction: column;
 }

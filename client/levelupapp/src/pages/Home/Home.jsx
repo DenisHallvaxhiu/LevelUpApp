@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="Home">
       <Navbar></Navbar>
-      <img src={Test} alt=""  width={"100%"} height={"600px"}/>
+      <img src={Test} alt=""  width={"100%"} height={"700px"}/>
     </div>
   );
 }

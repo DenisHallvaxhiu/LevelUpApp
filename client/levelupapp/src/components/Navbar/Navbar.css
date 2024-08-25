@@ -1,0 +1,9 @@
+#navbar{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(90deg, #221e1b,#1b1616,#1e1f1a,#221e1b);
+}
+#navbar-logo img{
+    width: 80px;
+    height: 75px;
+}

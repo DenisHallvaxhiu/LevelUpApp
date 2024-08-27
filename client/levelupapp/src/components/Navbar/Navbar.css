@@ -1,25 +1,85 @@
-#navbar{
+#navbar {
     width: 100%;
     height: 80px;
-    background: linear-gradient(90deg, #221e1b,#1b1616,#1e1f1a,#221e1b);
+    background: linear-gradient(90deg, #221e1b, #1b1616, #1e1f1a, #221e1b);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#navbar-logo img{
+
+#navbar-logo img {
     width: 80px;
     height: 80px;
     margin-top: 5px;
     margin-left: 3px;
     flex: 0;
 }
-#navbar-links{
+
+#navbar-links {
     flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
-#navbar-buttons-right img{
+
+#navbar-links a {
+    position: relative;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #f1eaf1;
+}
+
+#navbar-links a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #fe3d6e;
+    bottom: 10px;
+}
+
+#navbar-links a:hover:after {
+    animation: link-underline-effect 0.4s linear;
+}
+
+#navbar-buttons-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#navbar-buttons-right button {
+    background-color: transparent;
+    border: 1px solid #726870;
+    margin-right: 20px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: #fae7f0;
+    font-weight: bold;
+    font-size: 17px;
+}
+#navbar-buttons-right button:hover{
+    cursor: pointer;
+}
+#navbar-buttons-right img {
     width: 30px;
     height: 30px;
     border: 2px solid #fe3d6e;
     border-radius: 50%;
     padding: 5px;
+}
+
+@keyframes link-underline-effect {
+    0% {
+        width: 100%;
+    }
+
+    50% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
 }

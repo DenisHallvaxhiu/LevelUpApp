@@ -29,6 +29,7 @@ export default function Navbar() {
         <a href="#navbar-list">
           <a href="#link"><img src={GoldCoins} alt="" /></a>
         </a>
+        <button>Download</button>
       </div>
     </nav>
   );

@@ -49,25 +49,67 @@
     gap: 20px;
 }
 
-#navbar-buttons-right button {
-    background-color: transparent;
-    border: 1px solid #726870;
-    margin-right: 20px;
+/* Button */
+#navbar-buttons-right .button .inner {
     padding: 10px 15px;
-    border-radius: 15px;
-    color: #fae7f0;
-    font-weight: bold;
-    font-size: 17px;
+    background: #34232b;
+    color: #fff;
+    border-radius: var(--border-radius);
+    border-radius: 5px;
 }
-#navbar-buttons-right button:hover{
+#navbar-buttons-right .button .inner h3{
+    margin: 0;
+    padding: 0;
+}
+#navbar-buttons-right .button{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #fe3d6e;
+    border-radius: 5px;
+    padding: 0;
     cursor: pointer;
+    margin-right: 15px;
 }
+
+#navbar-buttons-right .button .inner {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin: 1px;
+    border: none;
+}
+
+
+
+#navbar-buttons-right .button:hover:before {
+    content: "";
+    display: block;
+    background-color: #3f345f;
+    height: 300px;
+    width: 30px;
+    transform: translate(0);
+    position: absolute;
+    animation: rotate 3s linear forwards infinite;
+    z-index: 0;
+    top: 50%;
+    transform-origin: top center;
+}
+
+/*  */
 #navbar-buttons-right img {
     width: 30px;
     height: 30px;
     border: 2px solid #fe3d6e;
     border-radius: 50%;
     padding: 5px;
+}
+
+#navbar-buttons-right img:hover {
+    animation: border-fade-out .5s ease-in infinite forwards;
 }
 
 @keyframes link-underline-effect {
@@ -81,5 +123,39 @@
 
     100% {
         width: 100%;
+    }
+}
+
+@keyframes border-fade-out {
+
+    0%,
+    100% {
+        border-width: 2px 2px 2px 2px;
+    }
+
+    20% {
+        border-width: 0px 2px 2px 2px;
+    }
+
+    40% {
+        border-width: 2px 0px 2px 2px;
+    }
+
+    60% {
+        border-width: 2px 2px 0px 2px;
+    }
+
+    80% {
+        border-width: 2px 2px 2px 0px;
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
     }
 }

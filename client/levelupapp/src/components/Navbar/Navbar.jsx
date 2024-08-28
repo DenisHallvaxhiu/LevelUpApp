@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import Logo from "../../assets/Logo.png";
-import GoldCoins from "../../assets/Gold-coins.webp"
+import GoldCoins from "../../assets/Gold-coins.webp";
 
 export default function Navbar() {
   return (
@@ -27,9 +27,15 @@ export default function Navbar() {
       </div>
       <div id="navbar-buttons-right">
         <a href="#navbar-list">
-          <a href="#link"><img src={GoldCoins} alt="" /></a>
+          <a id="gold-shop" href="#link">
+            <img src={GoldCoins} alt="" />
+          </a>
         </a>
-        <button>Download</button>
+        <button className="button">
+          <div className="inner">
+            <h3>Download</h3>
+          </div>
+        </button>
       </div>
     </nav>
   );

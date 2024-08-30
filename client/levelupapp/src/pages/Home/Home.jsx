@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Test from "../../assets/Working background.png";
+import CircleAnimationLevel from "../../components/CircleAnimationLevel/CircleAnimationLevel";
 
 export default function Home() {
   return (
@@ -11,17 +12,7 @@ export default function Home() {
       <div className="cards">
         <div className="card">
           <h2 className="card-title">Player Profile</h2>
-          <div className="circle-level">
-            <h1>9</h1>
-          </div>
-          <div className="bubbles"></div>
-          <div className="bubbles"></div>
-          <div className="bubbles"></div>
-          <div className="bubbles"></div>
-          <div className="bubbles"></div>
-          <div className="bubbles"></div>
-          <div className="bubbles"></div>
-          <div className="bubbles"></div>
+          <CircleAnimationLevel level="9"></CircleAnimationLevel>
         </div>
         <div className="card">
           <h2 className="card-title">Player Profile</h2>

@@ -1,20 +1,44 @@
-.card-title {
-    font-family: "Kaushan Script", cursive;
-    text-align: center;
-    color: #faf9fb;
-}
- .circle-level {
+.circle-level {
     width: 150px;
     height: 150px;
     margin: auto;
     margin-top: 100px;
-    background-color: red;
+    background: linear-gradient(135deg, #45333f, #412a3a, #3f3241, #3f3945, #343339);
     border-radius: 50%;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     z-index: 10;
+}
+
+.circle-level .inner {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(135deg, #45333f, #412a3a, #3f3241, #3f3945, #343339);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    font-family: "Nerko One", cursive;
+    color: #caaded;
+    font-size: 32px;
+}
+
+.circle-level::before {
+    content: "";
+    background: linear-gradient(135deg, #b7548a, #725e93);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    margin: -10px;
+    border-radius: 50%;
+    animation: rotate 2s infinite linear;
 }
 
 .bubbles {
@@ -169,5 +193,15 @@
     100% {
         transform: translate(50px, 0);
         opacity: 0%;
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
     }
 }

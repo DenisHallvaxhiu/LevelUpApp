@@ -16,12 +16,15 @@ export default function Home() {
         </div>
         <div className="card">
           <h2 className="card-title">Player Profile</h2>
+          <CircleAnimationLevel level="5"></CircleAnimationLevel>
         </div>
         <div className="card">
           <h2 className="card-title">Player Profile</h2>
+          <CircleAnimationLevel level="3"></CircleAnimationLevel>
         </div>
         <div className="card">
           <h2 className="card-title">Player Profile</h2>
+          <CircleAnimationLevel level="2"></CircleAnimationLevel>
         </div>
         <div className="card">
           <h2 className="card-title">Player Profile</h2>

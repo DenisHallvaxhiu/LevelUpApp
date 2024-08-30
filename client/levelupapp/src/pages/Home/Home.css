@@ -26,7 +26,11 @@
     position: relative;
 }
 
-
+.card-title {
+    font-family: "Kaushan Script", cursive;
+    text-align: center;
+    color: #faf9fb;
+}
 @media (max-width:1300px) {
     .Home .cards .card {
         width: 22%;

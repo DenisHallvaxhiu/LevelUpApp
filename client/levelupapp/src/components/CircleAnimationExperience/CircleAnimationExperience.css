@@ -1,6 +1,6 @@
 .circle-experience {
-    width: 150px;
-    height: 150px;
+    width: 155px;
+    height: 155px;
     margin: auto;
     margin-top: 100px;
     border-radius: 50%;
@@ -25,26 +25,3 @@
     color: #caaded;
     font-size: 32px;
 }
-
-
-/* .circle-experience-part:nth-child(1){
-    position: absolute;
-    width: 99%;
-    height: 99%;
-    border-radius: 50%;
-    border: 10px solid;
-    border-color: transparent transparent black transparent;
-}
-.circle-experience-part:nth-child(1)::before{
-    content: "";
-    background-color: blue;
-    height: calc(100% + 10px);
-    width: calc(100% + 10px);
-    position: absolute;
-    transform-origin: center;
-    margin: -5px;
-    border-radius: 50%;
-}
-.circle-experience-part:nth-child(2){
-    top: -100px;
-} */

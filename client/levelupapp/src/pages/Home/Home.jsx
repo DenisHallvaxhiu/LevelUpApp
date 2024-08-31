@@ -3,6 +3,7 @@ import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Test from "../../assets/Working background.png";
 import CircleAnimationLevel from "../../components/CircleAnimationLevel/CircleAnimationLevel";
+import CircleAnimationExperience from "../../components/CircleAnimationExperience/CircleAnimationExperience";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       <div className="cards">
         <div className="card">
           <h2 className="card-title">Player Profile</h2>
-          <CircleAnimationLevel level="9"></CircleAnimationLevel>
+          <CircleAnimationLevel level="5"></CircleAnimationLevel>
         </div>
         <div className="card">
           <h2 className="card-title">Player Profile</h2>
@@ -24,7 +25,7 @@ export default function Home() {
         </div>
         <div className="card">
           <h2 className="card-title">Player Profile</h2>
-          <CircleAnimationLevel level="2"></CircleAnimationLevel>
+          <CircleAnimationExperience experience="88"></CircleAnimationExperience>
         </div>
         <div className="card">
           <h2 className="card-title">Player Profile</h2>

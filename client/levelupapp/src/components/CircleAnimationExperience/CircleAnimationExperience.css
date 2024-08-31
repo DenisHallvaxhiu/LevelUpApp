@@ -1,0 +1,50 @@
+.circle-experience {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.circle-experience .inner {
+    width: 135px;
+    height: 135px;
+    background: linear-gradient(135deg, #45333f, #412a3a, #3f3241, #3f3945, #343339);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    font-family: "Nerko One", cursive;
+    color: #caaded;
+    font-size: 32px;
+}
+
+
+/* .circle-experience-part:nth-child(1){
+    position: absolute;
+    width: 99%;
+    height: 99%;
+    border-radius: 50%;
+    border: 10px solid;
+    border-color: transparent transparent black transparent;
+}
+.circle-experience-part:nth-child(1)::before{
+    content: "";
+    background-color: blue;
+    height: calc(100% + 10px);
+    width: calc(100% + 10px);
+    position: absolute;
+    transform-origin: center;
+    margin: -5px;
+    border-radius: 50%;
+}
+.circle-experience-part:nth-child(2){
+    top: -100px;
+} */

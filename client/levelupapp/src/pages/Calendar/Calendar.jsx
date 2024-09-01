@@ -1,7 +1,10 @@
-import React from 'react'
-
+import React from "react";
+import Navbar from "../../components/Navbar/Navbar";
 export default function Calendar() {
   return (
-    <div>Calendar</div>
-  )
+    <>
+      <Navbar></Navbar>
+      <div>Calendar</div>
+    </>
+  );
 }

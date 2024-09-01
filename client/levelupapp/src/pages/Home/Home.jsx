@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         <div className="card">
           <h2 className="card-title">Player Profile</h2>
-          <CircleAnimationLevel level="3"></CircleAnimationLevel>
+          <CircleAnimationExperience experience="31"></CircleAnimationExperience>
         </div>
         <div className="card">
           <h2 className="card-title">Experience</h2>

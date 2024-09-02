@@ -21,8 +21,8 @@ export default function Home() {
           <CircleAnimationLevel level="5"></CircleAnimationLevel>
         </div>
         <div className="card">
-          <h2 className="card-title">Player Profile</h2>
-          <CircleProgressBar/>
+          <h2 className="card-title">Tasks on hand</h2>
+          <CircleProgressBar tasks={51} completed={51}/>
         </div>
         <div className="card">
           <h2 className="card-title">Experience</h2>

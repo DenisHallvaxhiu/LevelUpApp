@@ -1,0 +1,73 @@
+.circle-progress-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-progress-bar>div {
+    width: 165px;
+    margin-top: 80px;
+    font-family: "Nerko One", cursive;
+    font-size: 40px;
+}
+.CircularProgressbar-trail {
+    stroke: #725e93 !important;
+    opacity: 20% !important;
+  }
+/*
+ * react-circular-progressbar styles
+ * All of the styles in this file are configurable!
+ */
+
+.CircularProgressbar {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #f58cb2;
+    stroke-linecap: round;
+    -webkit-transition: stroke-dashoffset 0.5s ease 0s;
+    transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+    stroke: #d6d6d6;
+    stroke-linecap: round;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+    fill: #caaded;
+    font-size: 35px;
+    dominant-baseline: middle;
+    text-anchor: middle;
+}
+
+.CircularProgressbar .CircularProgressbar-background {
+    fill: #d6d6d6;
+}
+
+/*
+   * Sample background styles. Use these with e.g.:
+   *
+   *   <CircularProgressbar
+   *     className="CircularProgressbar-inverted"
+   *     background
+   *     percentage={50}
+   *   />
+   */
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+    fill: #f58cb2;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+    fill: #fff;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+    stroke: #fff;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+    stroke: transparent;
+}

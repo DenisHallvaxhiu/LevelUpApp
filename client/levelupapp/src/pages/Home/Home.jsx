@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Test from "../../assets/Working background.png";
 import CircleAnimationLevel from "../../components/CircleAnimationLevel/CircleAnimationLevel";
 import CircleAnimationExperience from "../../components/CircleAnimationExperience/CircleAnimationExperience";
+import CircleProgressBar from "../../components/CircleProgressBar/CircleProgressBar";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
         </div>
         <div className="card">
           <h2 className="card-title">Player Profile</h2>
-          <CircleAnimationExperience experience="31"></CircleAnimationExperience>
+          <CircleProgressBar/>
         </div>
         <div className="card">
           <h2 className="card-title">Experience</h2>

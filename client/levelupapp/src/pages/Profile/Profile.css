@@ -1,0 +1,11 @@
+.Profile {
+    height: 100%;
+    background: linear-gradient(125deg, #212121, #1f1f22);
+}
+.Profile img {
+    width: 100%;
+    max-height: 600px;
+}
+.Profile > div {
+    height: 100vh;
+}

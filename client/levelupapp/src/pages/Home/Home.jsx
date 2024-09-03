@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
-import Test from "../../assets/Working background.png";
+import Background from "../../assets/Working background.png";
 import CircleAnimationLevel from "../../components/CircleAnimationLevel/CircleAnimationLevel";
 import CircleAnimationExperience from "../../components/CircleAnimationExperience/CircleAnimationExperience";
 import CircleProgressBar from "../../components/CircleProgressBar/CircleProgressBar";
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="Home">
       <Navbar></Navbar>
-      <img src={Test} alt="" />
+      <img src={Background} alt="" />
       <div className="cards">
         <div className="card">
           <h2 className="card-title">Player Profile</h2>
